@@ -4,5 +4,5 @@ $Global:config = @{
     cveOutputFolder = '' # Folder location for output file
     smtpServer = '' # SMTP server address
     cveEmailFrom = '' # From address
-    cveEmailTo = '' # To addresses (must be ; separated)
+    cveEmailTo = '' # To addresses (must be , separated)
 }   
