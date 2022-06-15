@@ -34,7 +34,3 @@ function Add-LogComment
 	$messageToLog = "$dateTime $level $filename $message"
 	$messageToLog | Out-File $path -Append
 }
-
-<# Testing
-Add-LogComment "INFO" "Testfile.ps1" "Test Message" "\\Istd\tvm\TVMAutomation\DEV\LoggingcveReport.log"
-<##>
